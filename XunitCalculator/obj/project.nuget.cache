@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6Jqu3+qFJ0VbtL8cWXq5jOE1mlxkLiFk1Ii8N/MkTeh6OeoRfuKTQM6pzEeJuC8nI9tNGJ8nMcJusuG4lF+KCQ==",
+  "dgSpecHash": "LR8m705H7Myl4WvIweLhzOOT3VlkRZi1ZLLvLchhEZnfgrggB5HkXtElm27dU/DZFw3rM/DFmpfNB0ImR3kZCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\vinicius.oliveira\\Desktop\\XunitCalculator\\XunitCalculator\\XunitCalculator.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\vinicius.oliveira\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\vinicius.oliveira\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.11.0\\microsoft.testplatform.objectmodel.16.11.0.nupkg.sha512",
     "C:\\Users\\vinicius.oliveira\\.nuget\\packages\\microsoft.testplatform.testhost\\16.11.0\\microsoft.testplatform.testhost.16.11.0.nupkg.sha512",
+    "C:\\Users\\vinicius.oliveira\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\vinicius.oliveira\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\vinicius.oliveira\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\vinicius.oliveira\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
