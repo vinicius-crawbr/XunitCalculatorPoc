@@ -1,13 +1,12 @@
 #!groovy
-pipeline{
-    agent{label "linux"}
-    stages("build"){
-        steps{
-            sh """"
-                docker build -t xunit .
-            """
-
-        }
-
+pipeline {
+  agent none
+  stages {
+    stage('Docker Build') {
+      agent any
+      steps {
+        sh 'docker build -t xunit:latest .'
+      }
     }
+  }
 }
