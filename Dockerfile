@@ -9,7 +9,7 @@ WORKDIR /app
 # #RUN dotnet restore "CalculatorXunitTest.csproj"
 COPY "XunitCalculator/XunitCalculator*.csproj" "./"
 RUN dotnet restore
-COPY "XunitCalculator/XunitCalculator*.csproj" "./"
+COPY "XunitCalculator/*" "./"
 RUN rm -rf "./TestResults"
 
 # #Build
@@ -22,7 +22,7 @@ FROM restore AS test
 RUN dotnet test -c Release --logger:trx
 # #RUN dotnet test --logger:trx -c Release --no-build
 
-FROM scratch as export-test-results
+FROM test as export-test-results
 COPY --from=test /app/TestResults/*.trx .
 
 # # publish the API
