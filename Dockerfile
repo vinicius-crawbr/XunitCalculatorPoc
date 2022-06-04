@@ -17,13 +17,13 @@ RUN rm -rf "./TestResults"
 RUN dotnet build -c Release
 
 # # run the unit tests
-FROM restore AS test
+FROM restore AS build-test
 # #RUN dotnet test "CalculatorXunitTest.csproj" -c Release --logger:trx
 RUN dotnet test -c Release --logger:trx
 # #RUN dotnet test --logger:trx -c Release --no-build
 
-FROM test as export-test-results
-COPY --from=test /app/TestResults/*.trx .
+FROM scratch as export-test-results
+COPY --from=build-test /app/TestResults/*.trx /
 
 # # publish the API
 # #FROM build AS publish
