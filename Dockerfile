@@ -23,7 +23,7 @@ RUN dotnet test -c Release --logger:trx
 # #RUN dotnet test --logger:trx -c Release --no-build
 
 FROM scratch as export-test-results
-COPY --from=build-test =/app/TestResults/*.trx .
+COPY --from=build-test /app/TestResults/*.trx .
 
 # # publish the API
 # #FROM build AS publish
