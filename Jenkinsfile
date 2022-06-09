@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    node {
-      label 'Windows'
-    }
-
-  }
+  agent any
   stages {
     stage('Docker Build') {
       agent any
