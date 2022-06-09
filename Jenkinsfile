@@ -1,5 +1,10 @@
 pipeline {
-  agent any
+  agent {
+    node {
+      label 'Windows'
+    }
+
+  }
   stages {
     stage('Docker Build') {
       agent any
@@ -15,7 +20,6 @@ cat *'''
 
     stage('Xunit') {
       steps {
-        bat 'dotnet test -l:trx || true'
         pwsh 'dotnet test -l:trx || true'
         powershell 'dotnet test -l:trx || true'
       }
