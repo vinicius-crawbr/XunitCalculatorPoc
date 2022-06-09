@@ -15,7 +15,7 @@ cat *'''
 
     stage('Xunit') {
       steps {
-        powershell 'dotnet test -l:trx || true'
+        sh 'dotnet test -l:trx || true'
       }
     }
 
