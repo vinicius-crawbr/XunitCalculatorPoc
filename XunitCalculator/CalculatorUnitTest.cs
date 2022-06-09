@@ -38,7 +38,7 @@ namespace XunitCalculator
         {
             int num1 = 5;
             int num2 = 10;
-            int valorEsperado = -5;
+            int valorEsperado = 5;
 
             int OperacaoSubtracao = calculator.Subtract(num1, num2);
             Assert.Equal(valorEsperado, OperacaoSubtracao);
@@ -49,7 +49,7 @@ namespace XunitCalculator
         {
             int num1 = 24;
             int num2 = 12;
-            int valorEsperado = 2;
+            int valorEsperado = 12;
 
             int operacaoDivide = calculator.Divide(num1, num2);
             Assert.Equal(valorEsperado, operacaoDivide);
