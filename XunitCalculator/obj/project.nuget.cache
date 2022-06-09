@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LR8m705H7Myl4WvIweLhzOOT3VlkRZi1ZLLvLchhEZnfgrggB5HkXtElm27dU/DZFw3rM/DFmpfNB0ImR3kZCw==",
+  "dgSpecHash": "Z5lo+Gxd1IpZ3PGo3vO1FysxAdR7qDfrh7H1ouT/DMEMQQ+GTkLrU1hMyKoLtcTVo5mmM2fgwQqu5yaEKn75DQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinicius.oliveira\\Desktop\\XunitCalculator\\XunitCalculator\\XunitCalculator.csproj",
+  "projectFilePath": "C:\\Users\\vinicius.oliveira\\Desktop\\XunitCalculatorPoc\\XunitCalculator\\XunitCalculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinicius.oliveira\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\vinicius.oliveira\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

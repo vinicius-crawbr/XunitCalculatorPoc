@@ -25,7 +25,7 @@ namespace XunitCalculator
 
             int num1 = 2;
             int num2 = 6;
-            int valorEsperado = 8;
+            int valorEsperado = 10;
 
             int OperacoaoSoma = calculator.Add(num1, num2);
 

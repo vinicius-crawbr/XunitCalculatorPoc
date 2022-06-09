@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinicius.oliveira\\Desktop\\XunitCalculator\\XunitCalculator\\XunitCalculator.csproj": {}
+    "C:\\Users\\vinicius.oliveira\\Desktop\\XunitCalculatorPoc\\XunitCalculator\\XunitCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinicius.oliveira\\Desktop\\XunitCalculator\\XunitCalculator\\XunitCalculator.csproj": {
+    "C:\\Users\\vinicius.oliveira\\Desktop\\XunitCalculatorPoc\\XunitCalculator\\XunitCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinicius.oliveira\\Desktop\\XunitCalculator\\XunitCalculator\\XunitCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\vinicius.oliveira\\Desktop\\XunitCalculatorPoc\\XunitCalculator\\XunitCalculator.csproj",
         "projectName": "XunitCalculator",
-        "projectPath": "C:\\Users\\vinicius.oliveira\\Desktop\\XunitCalculator\\XunitCalculator\\XunitCalculator.csproj",
+        "projectPath": "C:\\Users\\vinicius.oliveira\\Desktop\\XunitCalculatorPoc\\XunitCalculator\\XunitCalculator.csproj",
         "packagesPath": "C:\\Users\\vinicius.oliveira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinicius.oliveira\\Desktop\\XunitCalculator\\XunitCalculator\\obj\\",
+        "outputPath": "C:\\Users\\vinicius.oliveira\\Desktop\\XunitCalculatorPoc\\XunitCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vinicius.oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
