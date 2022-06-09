@@ -13,5 +13,13 @@ cat *'''
       }
     }
 
+    stage('Xunit') {
+      steps {
+        bat 'dotnet test -l:trx || true'
+        pwsh 'dotnet test -l:trx || true'
+        powershell 'dotnet test -l:trx || true'
+      }
+    }
+
   }
 }
