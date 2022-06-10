@@ -15,7 +15,7 @@ cat *'''
 
     stage('Test Results') {
       steps {
-        mstest(failOnError: true, testResultsFile: '/TestResults/*.trx ')
+        mstest(failOnError: true, testResultsFile: '/TestResults/')
       }
     }
 
