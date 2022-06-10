@@ -13,20 +13,9 @@ cat *'''
       }
     }
 
-    stage('Xunit') {
-      parallel {
-        stage('Xunit') {
-          steps {
-            sh 'dotnet test -l:trx || true'
-          }
-        }
-
-        stage('') {
-          steps {
-            sh 'dotnet test -c Release --logger:trx; exit 0'
-          }
-        }
-
+    stage('Test Results') {
+      steps {
+        mstest(failOnError: true, testResultsFile: '**/*.trx ')
       }
     }
 
