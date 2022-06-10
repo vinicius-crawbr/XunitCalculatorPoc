@@ -13,11 +13,11 @@ namespace XunitCalculator
     {
         Calculator calculator = new Calculator();
 
-        [Fact]
-        public void Test_is_running_in_linux_container()
-        {
-            Assert.True(RuntimeInformation.IsOSPlatform(OSPlatform.Linux));
-        }
+        //[Fact]
+        //public void Test_is_running_in_linux_container()
+        //{
+        //    Assert.True(RuntimeInformation.IsOSPlatform(OSPlatform.Linux));
+        //}
 
         [Fact]
         public void Add_TwoInt_ReturnValue()
