@@ -18,11 +18,7 @@ namespace XunitCalculator
         {
             Assert.True(RuntimeInformation.IsOSPlatform(OSPlatform.Linux));
         }
-        //[Fact]
-        //public void Test_is_running_in_WindowsContainer()
-        //{
-        //    Assert.True(RuntimeInformation.IsOSPlatform(OSPlatform.Windows));
-        //}
+
 
         [Fact]
         public void Add_TwoInt_ReturnValue()
