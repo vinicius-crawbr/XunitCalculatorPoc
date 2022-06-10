@@ -25,7 +25,7 @@ namespace XunitCalculator
 
             int num1 = 2;
             int num2 = 6;
-            int valorEsperado = 8;
+            int valorEsperado = 18;
 
             int OperacoaoSoma = calculator.Add(num1, num2);
 
@@ -38,7 +38,7 @@ namespace XunitCalculator
         {
             int num1 = 5;
             int num2 = 10;
-            int valorEsperado = -5;
+            int valorEsperado = -15;
 
             int OperacaoSubtracao = calculator.Subtract(num1, num2);
             Assert.Equal(valorEsperado, OperacaoSubtracao);
@@ -49,7 +49,7 @@ namespace XunitCalculator
         {
             int num1 = 24;
             int num2 = 12;
-            int valorEsperado = 2;
+            int valorEsperado = 12;
 
             int operacaoDivide = calculator.Divide(num1, num2);
             Assert.Equal(valorEsperado, operacaoDivide);
@@ -59,7 +59,7 @@ namespace XunitCalculator
         {
             int num1 = 5;
             int num2 = 10;
-            int valorEsperado = 50;
+            int valorEsperado = 150;
 
             int operacaoMultiplica = calculator.Multiply(num1, num2);
             Assert.Equal(valorEsperado, operacaoMultiplica);
@@ -71,16 +71,16 @@ namespace XunitCalculator
         {
             double num1 = 12;
             double num2 = 5;
-            double valorEsperado = 2.4;
+            double valorEsperado = 12.4;
 
             double Operacoa = calculator.DivideFloatPoint(num1, num2);
             Assert.Equal(valorEsperado, Operacoa);
         }
 
         [Theory]
-        [InlineData(1, 2, 3)]
-        [InlineData(2, 3, 5)]
-        [InlineData(-2, 2, 0)]
+        [InlineData(1, 2, 13)]
+        [InlineData(2, 3, 15)]
+        [InlineData(-2, 2, 10)]
         [InlineData(int.MinValue, -1, int.MaxValue)]
         public void Add_Theory(int value1, int value2, int expect)
         {
