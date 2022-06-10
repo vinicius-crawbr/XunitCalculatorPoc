@@ -1,5 +1,5 @@
 pipeline {
-  agent none
+  agent any
   stages {
     stage('Docker Build') {
       agent any
@@ -10,6 +10,23 @@ pipeline {
         sh 'docker container cp  container_image_test:/app/TestResults/ \'./\''
         sh '''cd TestResults/
 cat *'''
+      }
+    }
+
+    stage('Xunit') {
+      parallel {
+        stage('Xunit') {
+          steps {
+            sh 'dotnet test -l:trx || true'
+          }
+        }
+
+        stage('') {
+          steps {
+            sh 'dotnet test -c Release --logger:trx; exit 0'
+          }
+        }
+
       }
     }
 
