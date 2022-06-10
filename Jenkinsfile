@@ -15,7 +15,7 @@ cat *'''
 
     stage('Test Results') {
       steps {
-        mstest(failOnError: true, testResultsFile: '**/*.trx ')
+        mstest(failOnError: true, testResultsFile: '/var/jenkins_home/workspace/POCalculator/TestResults/*.trx ')
       }
     }
 
